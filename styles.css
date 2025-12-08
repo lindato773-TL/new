@@ -362,6 +362,7 @@ swiper-slide img {
 .footer {
   width: 1330px;
   padding-top: 100px;
+  height: auto;
 }
 
 .card-footer1 {
@@ -383,7 +384,7 @@ swiper-slide img {
   justify-content: space-between;
 }
 
-.first .card-footer1 {
+.first .card-footer1, .first .card-footer2, .first .card-footer3 {
   width: 30%;
 }
 
@@ -412,7 +413,7 @@ swiper-slide img {
 .card-footer2 {
   width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card-footer2 div ul li {
